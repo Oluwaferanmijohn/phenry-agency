@@ -71,12 +71,12 @@ li a:hover {
 }
 
 .header-div1 h2 {
-    font-size: 12rem;
+    font-size: 10rem;
 }
 
 .header-div1 h3 {
     margin: 0.5em;
-    font-size: 10rem;
+    font-size: 7rem;
 }
 
 header div {
@@ -98,213 +98,75 @@ header div {
 
 /* main css */
 
-.section1 {
-    color: black;
-    background-image: linear-gradient( to bottom, rgba(255, 255, 255, 0.726), rgba(187, 187, 187, 0.925)), url(/img/b1.jfif);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+main {
+    margin-top: 4em;
 }
 
-.section1 div {
-    margin-top: 5em;
-    margin-bottom: 4em;
-    margin-left: 2em;
-    margin-right: 2em;
+.section1 {
+    padding: 2em 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(226, 226, 226);
+}
+
+.section1 h2 {
+    margin-top: 2em;
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.section1 h4 {
+    font-size: 1.7rem;
     text-align: center;
 }
 
-.section1 div h3 {
-    font-size: 2.5rem;
-}
-
-.section1 div p {
-    font-size: 1.5rem;
-}
-
-.icon2 {
-    font-size: 7em;
-    color: rgb(0, 35, 87);
-}
-
-.header-div {
-    text-transform: uppercase;
+.section1 p {
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 2em;
 }
 
 
-/* w3school */
-
-
-/* w3school */
-
-
-/* section2 */
+/* section2 starts */
 
 .section2 {
-    background-image: linear-gradient( to bottom, rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.925)), url(/img/bg1.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 1em;
-    overflow: hidden;
-    text-align: center;
-    overflow: hidden;
-    color: white;
+    padding: 2em 2em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(114, 114, 114);
 }
 
-.section2-h3 h3 {
-    font-size: 4rem;
-    margin-bottom: 7rem;
-    color: white;
-}
-
-.section2-h3 p {
-    font-size: 1.9rem;
-    margin: 5em;
-    text-align: center;
-    color: white;
-}
-
-.section2-main-div {
-    display: flex;
-    justify-content: center;
+.section2 h2 {
     margin-top: 2em;
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 1em;
 }
 
-.section2-main-div div h3 {
-    border: 0.4em white solid;
-    padding: 1.2em;
-    background-color: #1b0a5e;
-    color: white;
-}
-
-.section2-main-div div h2 {
-    border: 0.4em white solid;
-    border-radius: 50%;
-    background-color: #1b0a5e;
-    color: white;
-}
-
-.img1 {
-    max-width: 30em !important;
-    margin-left: 50em;
-}
-
-.img2 {
-    display: flex;
-}
-
-.section2-h3 h3 {
+.section2 h4 {
+    font-size: 1.7rem;
     text-align: center;
 }
 
-.section2-h3 p {
+.section2 p {
+    font-size: 1.4rem;
     text-align: center;
+    margin: 2em;
+}
+
+.img {
+    width: 60em;
+    height: 40em;
 }
 
 
-/* carousel starts */
-
-.pic-ctn {
-    width: 100vw;
-}
-
-@keyframes display {
-    0% {
-        transform: translateX(200px);
-        opacity: 0;
-    }
-    10% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-    20% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-    30% {
-        transform: translateX(-200px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(-200px);
-        opacity: 0;
-    }
-}
-
-.pic-ctn {
-    position: relative;
-    width: 100vw;
-    height: 300px;
-    margin-top: 15vh;
-}
-
-.pic-ctn>img {
-    position: absolute;
-    top: 0;
-    left: calc(50% - 100px);
-    opacity: 0;
-    animation: display 10s infinite;
-}
-
-img:nth-child(2) {
-    animation-delay: 2s;
-}
-
-img:nth-child(3) {
-    animation-delay: 4s;
-}
-
-img:nth-child(4) {
-    animation-delay: 6s;
-}
-
-img:nth-child(5) {
-    animation-delay: 8s;
-}
+/* section2 ends */
 
 
-/* carousel ends */
-
-
-/* section 3 starts  */
-
-.section3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.section3-div1 h3,
-.section3-div2 h3 {
-    font-size: 2rem;
-}
-
-.section3-div1 i,
-.section3-div1 p,
-.section3-div2 i,
-.section3-div2 p {
-    font-size: 1.5rem;
-}
-
-.section3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 7em;
-    margin-top: 10em;
-    gap: 4em;
-}
-
-.grp-img {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-
-/* section 3 ends */
+/* main ends */
 
 
 /* footer css */
