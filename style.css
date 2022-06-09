@@ -391,6 +391,11 @@ footer .email button p {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
+.lastimg {
+    width: 9em;
+    height: 9em;
+}
+
 .footer-section3-div {
     display: flex;
     font-size: 15px;

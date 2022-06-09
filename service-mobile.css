@@ -1,0 +1,44 @@
+/* main css */
+
+@media (max-width:900px) {
+    body {
+        text-align: center;
+    }
+    header img {
+        height: 3rem;
+        width: 3rem;
+    }
+    header nav {
+        display: none;
+    }
+    header {
+        padding: 2em 1em;
+    }
+    .contnr {
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 80vh;
+    }
+    .header-div1 {
+        margin-top: 10rem;
+    }
+    .header-div1 h2 {
+        font-size: 4rem;
+        margin: 0.0em;
+    }
+    .header-div1 h3 {
+        margin: 0.1em;
+        font-size: 3rem;
+    }
+    .section1,
+    .section2 {
+        padding: 1em 1em;
+        display: flex;
+        flex-direction: column;
+    }
+    .img {
+        width: 20em;
+        height: 20em;
+    }
+}
