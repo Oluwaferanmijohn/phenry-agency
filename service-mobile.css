@@ -41,4 +41,49 @@
         width: 20em;
         height: 20em;
     }
+    footer {
+        padding-left: 0.2em;
+        padding-right: 0.2em;
+        padding-top: 0.2em;
+        background-color: black;
+    }
+    .foot {
+        padding: 0.1em !important;
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 70px;
+    }
+    .foot .email input,
+    .foot .email button {
+        padding: 1px;
+    }
+    footer .email input,
+    footer .email button {
+        padding: 0.2em !important;
+        border: none;
+        margin-left: 2px;
+    }
+    .img-div {
+        display: grid;
+        margin-left: 4em;
+        grid-template-columns: 7em 7em 7em;
+        gap: 1em !important;
+    }
+    .lastimg {
+        width: 7em;
+        height: 7em;
+    }
+    .last-section {
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1fr;
+        gap: 2em;
+    }
+    .footer-section3-div,
+    .last font-change2 {
+        font-size: 1rem;
+    }
+    .footer-section3-div {
+        margin-left: 2em;
+    }
 }
